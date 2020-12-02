@@ -28,7 +28,7 @@ except ModuleNotFoundError:
 
 #-------------------------------------------------------------
 
-# Exercise 2 - Design a simple calculator app with try and except for all use cases
+#Design a simple calculator app with try and except for all use cases
 
 symbols = "+ - x / % \n"
 try:
@@ -57,7 +57,7 @@ except ZeroDivisionError:
 
 #-----------------------------------------------------------------
 
-# Exercise 3 - Print one message if the try block raises a NameError and another for other errors
+#Print one message if the try block raises a NameError and another for other errors
 try:
     print(A)
 except NameError:
@@ -67,7 +67,7 @@ except:
 
 #------------------------------------------------------------
 
-# Exercise 4 -  When try-except scenario is not required?
+#When try-except scenario is not required?
 
 #We can use try except to stop error coming at running time but most of the errors are displayed at interpretation
 #time in python . We should always try to resolve errors at compile / interpretation time. 
@@ -75,7 +75,7 @@ except:
 #-------------------------------------------------------------
 
 
-# Exercise 5 - 	Try getting an input inside the try catch block
+#Try getting an input inside the try catch block
 try:
     num = int(input("Enter"))
 except ValueError:
